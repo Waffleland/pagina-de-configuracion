@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Configuración </title>
+    <link rel="stylesheet" href="css/configuración.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+  </head>
+  
+  <body>
+    <form class="formulario">
+      <div class="título">
+        <h1 class="titulo">Configuración</h1>
+      </div>
+      <hr>
+      <div class="contenedor">
+        <div class="Ambientación">
+          <label for="Ambientación">Ambientación</label>
+          <div class="opciones" id="opciones">
+            <input type="radio" id="Ambientación1" name="Item1" value="Item1"> Item1
+            <input type="radio" id="Ambientación2" name="Item1" value="Item2"> Item2
+          </div>
+        </div>
+        <div class="Visualización">
+          <label for="Visualización">Modo de Pantalla</label>
+          <div class="opciones" id="opciones">
+            <input type="radio" id="Visualización1" name="Item" value="Item1"> Item1
+            <input type="radio" id="Visualización2" name="Item" value="Item1"> Item2
+          </div>
+        </div>
+        <div class="Resolución">Resolución
+          <select name="Resolución" id="Resolución">
+            <option selected disabled>Click to select</option>
+            <option>opción1</option>
+            <option>opción2</option>
+            <option>opción3</option>
+          </select>
+        </div>
+      </div>
+  
+      <div class="contenedor2">
+        <div class="Teclas">Teclas <div class="opciones" id="opciones">
+            <select name="Teclas" id="Teclas">
+              <option selected disabled>Click to select</option>
+              <option>opción1</option>
+              <option>opción2</option>
+              <option>opción3</option>
+            </select>
+            <select name="Teclas">
+              <option selected disabled>Click to select</option>
+              <option>opción1</option>
+              <option>opción2</option>
+              <option>opción3</option>
+            </select></div>
+        </div>
+        <div class="Calidad">Calidad de imagen
+          <select name="Calidad" id="Calidad">
+            <option selected disabled>Click to select</option>
+            <option>opción1</option>
+            <option>opción2</option>
+            <option>opción3</option>
+        </div>
+        </select>
+      </div>
+      </div>
+      <footer>
+        <hr>
+        <div class="contenedor3">
+          <div class="button">
+            <input type="submit" value="Guardar" id="boton" />
+          </div>
+          <div class="button">
+            <input type="submit" value="Cancelar" id="boton2" />
+          </div>
+        </div>
+    </form>
+    </footer>
+  </body>
+  
+  </html>

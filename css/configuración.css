@@ -1,0 +1,112 @@
+.titulo{
+	color: #fff;
+	padding: 10px;
+	padding-right: 0px;
+	font-size:25px;
+	margin:0px;
+}
+.titulo, .formulario{
+	width: 500px;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+}
+.formulario{
+	border: 1px solid #d0011b;
+	padding-top:10px;
+	background: rgba(0,0,0,0.6);
+	border-radius: 10px;
+	color:#fff;
+	font-size:15px;
+}
+.Ambientación, .Visualización, .Teclas, .Resolución, .Calidad{
+	padding: 5px;
+	margin: 0px;
+	display: -webkit-inline-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+}
+.opciones {
+	display: -webkit-inline-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+}
+
+#boton{
+	background:#d0011b ;
+	color:#fff;
+	padding: 10px;
+	border:none;
+	border-radius: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+#boton:hover{
+	cursor:pointer
+}
+#boton2{
+	background: rgba(0,0,0,0.0);
+	color:#fff;
+	padding: 10px;
+	border:none;
+	border-radius: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+#boton2:hover{
+	cursor:pointer
+}
+.contenedor{
+	display: -webkit-inline-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 20px;
+	padding:10px;
+}
+.contenedor2{
+	display: -webkit-inline-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:10px;
+}
+.contenedor3{
+	display: -webkit-inline-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	align-items: flex-end;
+	padding-top: 20px;
+	padding:10px;
+}
+select{
+	appearance: none;
+	-ms-appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	outline: 0;
+	box-shadow: none;
+	border:0;
+	background: #fff;
+	overflow: hidden;
+	border-radius: 5px;
+	width: 100px;
+	height: 25px;
+	flex: 1;
+	padding: 4px;
+	margin: 3px;
+	color:grey;
+	cursor:pointer;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input[type="radio"]{
+	cursor:pointer;}
+hr{
+	border:1px solid #d0011b;
+}
